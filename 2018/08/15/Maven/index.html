@@ -8,18 +8,18 @@
   <link rel="dns-prefetch" href="https://amulsion.github.io">
   <title>Maven | Monsters&#39;</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="使用maven工具，提高开发效率    git版本管理工具替代svn版本管理工具 所需软件：  eclipse mars2、jdk1.7以上、maven软件3.x.x以上    注：         需要tomcat软件  一、安装配置： 1.下载并安装maven软件,配置其环境变量(先配置jdk再配置maven)     http://maven.apache.org/download.cgi">
+  <meta name="description" content="使用maven工具，提高开发效率 所需软件：eclipse mars2、jdk1.7以上、maven软件3.x.x以上    一、安装配置：1.下载并安装maven:http://maven.apache.org/download.cgi   配置其环境变量先配置jdk再配置maven…   2.maven软件的核心配置  需要在conf/settings.xml配置本地仓库的路径…   3.">
 <meta name="keywords" content="maven">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Maven">
-<meta property="og:url" content="https://amulsion.github.io/2018/08/08/Maven/index.html">
+<meta property="og:url" content="https://amulsion.github.io/2018/08/15/Maven/index.html">
 <meta property="og:site_name" content="Monsters&#39;">
-<meta property="og:description" content="使用maven工具，提高开发效率    git版本管理工具替代svn版本管理工具 所需软件：  eclipse mars2、jdk1.7以上、maven软件3.x.x以上    注：         需要tomcat软件  一、安装配置： 1.下载并安装maven软件,配置其环境变量(先配置jdk再配置maven)     http://maven.apache.org/download.cgi">
+<meta property="og:description" content="使用maven工具，提高开发效率 所需软件：eclipse mars2、jdk1.7以上、maven软件3.x.x以上    一、安装配置：1.下载并安装maven:http://maven.apache.org/download.cgi   配置其环境变量先配置jdk再配置maven…   2.maven软件的核心配置  需要在conf/settings.xml配置本地仓库的路径…   3.">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-08-08T06:08:34.728Z">
+<meta property="og:updated_time" content="2018-08-15T07:23:39.136Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Maven">
-<meta name="twitter:description" content="使用maven工具，提高开发效率    git版本管理工具替代svn版本管理工具 所需软件：  eclipse mars2、jdk1.7以上、maven软件3.x.x以上    注：         需要tomcat软件  一、安装配置： 1.下载并安装maven软件,配置其环境变量(先配置jdk再配置maven)     http://maven.apache.org/download.cgi">
+<meta name="twitter:description" content="使用maven工具，提高开发效率 所需软件：eclipse mars2、jdk1.7以上、maven软件3.x.x以上    一、安装配置：1.下载并安装maven:http://maven.apache.org/download.cgi   配置其环境变量先配置jdk再配置maven…   2.maven软件的核心配置  需要在conf/settings.xml配置本地仓库的路径…   3.">
   
     <link rel="alternative" href="/atom.xml" title="Monsters&#39;" type="application/atom+xml">
   
@@ -167,42 +167,55 @@
   
 
         
-        <a href="/2018/08/08/Maven/" class="archive-article-date">
-  	<time datetime="2018-08-08T06:08:29.812Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-08-08</time>
+        <a href="/2018/08/15/Maven/" class="archive-article-date">
+  	<time datetime="2018-08-15T07:23:38.453Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-08-15</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <hr>
-<p>使用maven工具，提高开发效率<br>    git版本管理工具替代svn版本管理工具</p>
-<p>所需软件：<br>  eclipse mars2、jdk1.7以上、maven软件3.x.x以上<br>    注：<br>         需要tomcat软件</p>
+        <blockquote>
+<ul>
+<li>使用maven工具，提高开发效率</li>
+<li>所需软件：eclipse mars2、jdk1.7以上、maven软件3.x.x以上</li>
+</ul>
+</blockquote>
 <hr>
-<h1 id="一、安装配置："><a href="#一、安装配置：" class="headerlink" title="一、安装配置："></a>一、安装配置：</h1><pre><code> 1.下载并安装maven软件,配置其环境变量(先配置jdk再配置maven)
-    http://maven.apache.org/download.cgi
-
- 2.maven软件的核心配置conf/settings.xml
-需要在此处配置本地仓库的路径
-
- 3.maven的核心文件是pom.xml ,项目目录结构
-</code></pre><h1 id="二、Maven常用命令"><a href="#二、Maven常用命令" class="headerlink" title="二、Maven常用命令"></a>二、Maven常用命令</h1><pre><code> 一键启动命令：tomcat7:run
+<h1 id="一、安装配置："><a href="#一、安装配置：" class="headerlink" title="一、安装配置："></a>一、安装配置：</h1><h6 id="1-下载并安装maven"><a href="#1-下载并安装maven" class="headerlink" title="1.下载并安装maven:"></a>1.下载并安装maven:</h6><p><a href="http://maven.apache.org/download.cgi" target="_blank" rel="noopener">http://maven.apache.org/download.cgi</a></p>
+<blockquote>
+<ul>
+<li>配置其环境变量<br>先配置jdk再配置maven<br>…</li>
+</ul>
+</blockquote>
+<h6 id="2-maven软件的核心配置"><a href="#2-maven软件的核心配置" class="headerlink" title="2.maven软件的核心配置"></a>2.maven软件的核心配置</h6><blockquote>
+<ul>
+<li>需要在conf/settings.xml配置本地仓库的路径<br>…</li>
+</ul>
+</blockquote>
+<h6 id="3-maven的核心文件是pom-xml-如："><a href="#3-maven的核心文件是pom-xml-如：" class="headerlink" title="3.maven的核心文件是pom.xml,如："></a>3.maven的核心文件是pom.xml,如：</h6><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">   &lt;build&gt;</span><br><span class="line">	&lt;!-- 配置了很多插件 --&gt;</span><br><span class="line">	&lt;plugins&gt;</span><br><span class="line">		&lt;plugin&gt;</span><br><span class="line">			&lt;groupId&gt;org.apache.maven.plugins&lt;/groupId&gt;</span><br><span class="line">			&lt;artifactId&gt;maven-compiler-plugin&lt;/artifactId&gt;</span><br><span class="line">			&lt;version&gt;3.5.1&lt;/version&gt;  </span><br><span class="line">			&lt;configuration&gt;</span><br><span class="line">				&lt;source&gt;1.7&lt;/source&gt;</span><br><span class="line">				&lt;target&gt;1.7&lt;/target&gt;</span><br><span class="line">				&lt;encoding&gt;UTF-8&lt;/encoding&gt;</span><br><span class="line">			&lt;/configuration&gt;</span><br><span class="line">		&lt;/plugin&gt;</span><br><span class="line">	&lt;/plugins&gt;</span><br><span class="line">&lt;/build&gt;</span><br></pre></td></tr></table></figure>
+<h1 id="二、Maven常用命令"><a href="#二、Maven常用命令" class="headerlink" title="二、Maven常用命令"></a>二、Maven常用命令</h1><pre><code> 一键启动命令：tomcat7:run
 不同生命周期的命令可同时执行
- 1.clean(清理已编译好的文件,即清理target文件夹里的文件)
-
- 2.compile test package install(发布到本地仓库) deploy(发布到私服)
-
- 3.site 
-</code></pre><h1 id="三、最佳实践"><a href="#三、最佳实践" class="headerlink" title="三、最佳实践"></a>三、最佳实践</h1><pre><code>1.切换工作空间--&gt;切换包的浏览视图--&gt;更改编程基本配置(如：utf-8、maven插件的配置等)
-
-2.入门程序、整合struts2框架、整合ssh框架
-
-3.分模块开发
-</code></pre><p>注：<br>  a.maven项目坐标GAV(Group Id、Artifact Id、Version);<br>  b.添加依赖的两种方式：在本地重建索引，以索引的方式搜索；<br>            在网络上搜索：<a href="http://mvnrepository.com(在公司里建议使用这种)或者http://search.maven.org；" target="_blank" rel="noopener">http://mvnrepository.com(在公司里建议使用这种)或者http://search.maven.org；</a><br>  c.创建工程定义坐标时：<br>               Group Id后可跟项目名称，Version可在pom中更改，可手动更改小版本号0.0.1，SNAPSHOT不能更改，除非是RELEASE(正式版)<br>  d.依赖版本冲突解决方法：调节原则(路径优先，第一声明)、排除原则(exclusion)、版本锁定原则(在pom前面锁定)</p>
-<p>  java项目打成jar包,jar包里是class文件,class文件是已编译好的文件<br>web项目打成war包</p>
-<p>maven是一个java项目管理工具(项目一键构建、依赖管理),主要用于大型项目的开发。<br>注：<br>   1.依赖管理(对jar包最统一管理，节省空间)<br>   2.一键构建(mvn tomcat:run==mvn compile test package install)<br>   3.可在Eclipse中集成maven，maven作为Eclipse的插件(m2e)<br>maven分模块开发:<br>1.互联网项目  按业务分(用户管理 订单管理 支付管理)<br>2.传统项目   按层分(entity dao service web)</p>
-<p>CRM(crm):客户关系管理系统<br>CMS:内容管理系统</p>
-<p>本地仓库、远程仓库(私服nexus)、中央仓库</p>
+</code></pre><blockquote>
+<ul>
+<li><p>clean(清理已编译好的文件,即清理target文件夹里的文件)</p>
+</li>
+<li><p>compile test package install(发布到本地仓库) deploy(发布到私服)</p>
+</li>
+<li><p>site </p>
+</li>
+</ul>
+</blockquote>
+<h1 id="三、最佳实践"><a href="#三、最佳实践" class="headerlink" title="三、最佳实践"></a>三、最佳实践</h1><blockquote>
+<ul>
+<li><p>切换工作空间–&gt;切换包的浏览视图–&gt;更改编程基本配置(如：utf-8、maven插件的配置等)</p>
+</li>
+<li><p>入门程序、整合struts2框架、整合ssh框架</p>
+</li>
+<li><p>分模块开发</p>
+</li>
+</ul>
+</blockquote>
 
       
 
@@ -314,7 +327,7 @@
     <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://amulsion.github.io/2018/08/08/Maven/" alt="微信分享二维码">
+      <img src="//pan.baidu.com/share/qrcode?url=https://amulsion.github.io/2018/08/15/Maven/" alt="微信分享二维码">
     </div>
 </div>
 

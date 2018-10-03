@@ -6,20 +6,15 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="https://amulsion.github.io">
-  <title>Spring | Szabadsag&#39;</title>
+  <title>Archives: 2018/10 | Szabadsag&#39;</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="一、第一个spring实践：1.准备工作a.新建一个文件夹并命名为lib，导入spring四个核心jar包以及所依赖的第三方jar包，即：spring-beans-4.2.4.RELEASE.jar、 spring-context-4.2.4.RELEASE.jar、 spring-core-4.2.4.RELEASE.jar、 spring-expression-4.2.4.RELEASE.ja">
-<meta name="keywords" content="spring java">
-<meta property="og:type" content="article">
-<meta property="og:title" content="Spring">
-<meta property="og:url" content="https://amulsion.github.io/2018/09/17/spring/index.html">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Szabadsag&#39;">
+<meta property="og:url" content="https://amulsion.github.io/archives/2018/10/index.html">
 <meta property="og:site_name" content="Szabadsag&#39;">
-<meta property="og:description" content="一、第一个spring实践：1.准备工作a.新建一个文件夹并命名为lib，导入spring四个核心jar包以及所依赖的第三方jar包，即：spring-beans-4.2.4.RELEASE.jar、 spring-context-4.2.4.RELEASE.jar、 spring-core-4.2.4.RELEASE.jar、 spring-expression-4.2.4.RELEASE.ja">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-09-17T09:57:04.853Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Spring">
-<meta name="twitter:description" content="一、第一个spring实践：1.准备工作a.新建一个文件夹并命名为lib，导入spring四个核心jar包以及所依赖的第三方jar包，即：spring-beans-4.2.4.RELEASE.jar、 spring-context-4.2.4.RELEASE.jar、 spring-core-4.2.4.RELEASE.jar、 spring-expression-4.2.4.RELEASE.ja">
+<meta name="twitter:title" content="Szabadsag&#39;">
   
     <link rel="alternative" href="/atom.xml" title="Szabadsag&#39;" type="application/atom+xml">
   
@@ -155,76 +150,85 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            <article id="post-spring" class="article article-type-post " itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
+            
   
-    <h1 class="article-title" itemprop="name">
-      Spring
+  
+    
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2018" class="archive-year">2018</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2018/10/03/博客发布/" class="archive-article-date">
+  	<time datetime="2018-10-03T05:32:36.184Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-10-03</time>
+</a>
+        </div>
+    	 
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2018/10/03/博客发布/">Hexo</a>
     </h1>
   
 
-        
-        <a href="/2018/09/17/spring/" class="archive-article-date">
-  	<time datetime="2018-09-17T09:25:23.707Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-09-17</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="一、第一个spring实践："><a href="#一、第一个spring实践：" class="headerlink" title="一、第一个spring实践："></a>一、第一个spring实践：</h1><h2 id="1-准备工作"><a href="#1-准备工作" class="headerlink" title="1.准备工作"></a>1.准备工作</h2><h5 id="a-新建一个文件夹并命名为lib，导入spring四个核心jar包以及所依赖的第三方jar包，"><a href="#a-新建一个文件夹并命名为lib，导入spring四个核心jar包以及所依赖的第三方jar包，" class="headerlink" title="a.新建一个文件夹并命名为lib，导入spring四个核心jar包以及所依赖的第三方jar包，"></a>a.新建一个文件夹并命名为lib，导入spring四个核心jar包以及所依赖的第三方jar包，</h5><h5 id="即："><a href="#即：" class="headerlink" title="即："></a>即：</h5><pre><code>spring-beans-4.2.4.RELEASE.jar、
-spring-context-4.2.4.RELEASE.jar、
-spring-core-4.2.4.RELEASE.jar、
-spring-expression-4.2.4.RELEASE.jar、
-commons-logging-1.2.jar、
-com.springsource.org.apache.log4j-1.2.15.jar
-</code></pre><h5 id="b-在src文件夹下新建一个applicationcontext-xml或者beans-xml并导入相关规范"><a href="#b-在src文件夹下新建一个applicationcontext-xml或者beans-xml并导入相关规范" class="headerlink" title="b.在src文件夹下新建一个applicationcontext.xml或者beans.xml并导入相关规范"></a>b.在src文件夹下新建一个applicationcontext.xml或者beans.xml并导入相关规范</h5><h5 id="如："><a href="#如：" class="headerlink" title="如："></a>如：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span><br><span class="line">&lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;</span><br><span class="line">    xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span><br><span class="line">    xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans </span><br><span class="line">    					http://www.springframework.org/schema/beans/spring-beans.xsd&quot;&gt;</span><br><span class="line">    					</span><br><span class="line">&lt;/beans&gt;</span><br></pre></td></tr></table></figure>
-<h2 id="2-编程"><a href="#2-编程" class="headerlink" title="2.编程"></a>2.编程</h2><h5 id="a-创建一个业务层接口，写一个方法"><a href="#a-创建一个业务层接口，写一个方法" class="headerlink" title="a.创建一个业务层接口，写一个方法"></a>a.创建一个业务层接口，写一个方法</h5><h5 id="如：-1"><a href="#如：-1" class="headerlink" title="如："></a>如：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">package com.yangcong.service;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * 业务逻辑层接口</span><br><span class="line"> * @author y</span><br><span class="line"> *</span><br><span class="line"> */</span><br><span class="line">public interface UserService &#123;</span><br><span class="line">	/**</span><br><span class="line">	 * 保存客户</span><br><span class="line">	 */</span><br><span class="line">	void saveCustomer();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h5 id="b-创建一个业务层实现类并重写业务层接口中的方法"><a href="#b-创建一个业务层实现类并重写业务层接口中的方法" class="headerlink" title="b.创建一个业务层实现类并重写业务层接口中的方法"></a>b.创建一个业务层实现类并重写业务层接口中的方法</h5><h5 id="如：-2"><a href="#如：-2" class="headerlink" title="如："></a>如：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">package com.yangcong.service.impl;</span><br><span class="line"></span><br><span class="line">import com.yangcong.service.UserService;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * 业务层实现类</span><br><span class="line"> * @author y</span><br><span class="line"> *</span><br><span class="line"> */</span><br><span class="line">public class UserServiceImpl implements UserService &#123;</span><br><span class="line"></span><br><span class="line">	@Override</span><br><span class="line">	public void saveCustomer() &#123;</span><br><span class="line">		System.out.println(&quot;业务逻辑层调用持久层&quot;);</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h5 id="c-配置资源，将对象的创建交给Spring来管理"><a href="#c-配置资源，将对象的创建交给Spring来管理" class="headerlink" title="c.配置资源，将对象的创建交给Spring来管理"></a>c.配置资源，将对象的创建交给Spring来管理</h5><h5 id="如：-3"><a href="#如：-3" class="headerlink" title="如："></a>如：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;</span><br><span class="line">&lt;beans xmlns=&quot;http://www.springframework.org/schema/beans&quot;</span><br><span class="line">    xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span><br><span class="line">    xsi:schemaLocation=&quot;http://www.springframework.org/schema/beans </span><br><span class="line">    					http://www.springframework.org/schema/beans/spring-beans.xsd&quot;&gt;</span><br><span class="line"></span><br><span class="line">	&lt;!-- 配置资源，将对象的创建交给Spring来管理 --&gt;</span><br><span class="line">	&lt;bean id=&quot;y1&quot; class=&quot;com.yangcong.service.impl.UserServiceImpl&quot;&gt;&lt;/bean&gt;</span><br><span class="line">	</span><br><span class="line">&lt;/beans&gt;</span><br></pre></td></tr></table></figure>
-<h5 id="d-创建一个表现层实现类用于调用业务层并实现IOC"><a href="#d-创建一个表现层实现类用于调用业务层并实现IOC" class="headerlink" title="d.创建一个表现层实现类用于调用业务层并实现IOC"></a>d.创建一个表现层实现类用于调用业务层并实现IOC</h5><h5 id="如：-4"><a href="#如：-4" class="headerlink" title="如："></a>如：</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">package com.yangcong.ui;</span><br><span class="line"></span><br><span class="line">import org.springframework.context.ApplicationContext;</span><br><span class="line">import org.springframework.context.support.ClassPathXmlApplicationContext;</span><br><span class="line"></span><br><span class="line">import com.yangcong.service.UserService;</span><br><span class="line"></span><br><span class="line">/**</span><br><span class="line"> * 表现层调用业务逻辑层</span><br><span class="line"> * @author y</span><br><span class="line"> *</span><br><span class="line"> */</span><br><span class="line">public class Client &#123;</span><br><span class="line">	@SuppressWarnings(&quot;all&quot;)</span><br><span class="line">	public static void main(String[] args) &#123;</span><br><span class="line">		//1.初始化Spring容器，加载配置文件</span><br><span class="line">		ApplicationContext a1 = new ClassPathXmlApplicationContext(&quot;beans.xml&quot;);</span><br><span class="line">		//2.通过容器获取u1实例</span><br><span class="line">		UserService u1 = (UserService) a1.getBean(&quot;y1&quot;);</span><br><span class="line">		//3.调用实例中的方法</span><br><span class="line">		u1.saveCustomer();</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="3-测试"><a href="#3-测试" class="headerlink" title="3.测试"></a>3.测试</h2><h5 id="右键：run-as–-gt-java-application，"><a href="#右键：run-as–-gt-java-application，" class="headerlink" title="右键：run as–&gt;java application，"></a>右键：run as–&gt;java application，</h5><h5 id="即可在控制台看见-“业务逻辑层调用持久层”。"><a href="#即可在控制台看见-“业务逻辑层调用持久层”。" class="headerlink" title="即可在控制台看见  “业务逻辑层调用持久层”。"></a>即可在控制台看见  “业务逻辑层调用持久层”。</h5>
-      
+        <div class="article-info info-on-right">
+          
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
+        		</li>
+      		
+		</ul>
+	</div>
 
-      
-        <div class="page-reward">
-          <a href="javascript:;" class="page-reward-btn tooltip-top">
-            <div class="tooltip tooltip-east">
-            <span class="tooltip-item">
-              赏
-            </span>
-            <span class="tooltip-content">
-              <span class="tooltip-text">
-                <span class="tooltip-inner">
-                  <p class="reward-p"><i class="icon icon-quo-left"></i><i class="icon icon-quo-right"></i></p>
-                  <div class="reward-box">
-                    
-                    <div class="reward-box-item">
-                      <img class="reward-img" src="/img/getMoney.png">
-                      <span class="reward-type">支付宝</span>
-                    </div>
-                    
-                    
-                    <div class="reward-box-item">
-                      <img class="reward-img" src="/img/getMoney_weixin.png">
-                      <span class="reward-type">微信</span>
-                    </div>
-                    
-                  </div>
-                </span>
-              </span>
-            </span>
-          </div>
-          </a>
+          
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/hexo//" class="article-tag-list-link color5">hexo</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+
         </div>
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
+        <div class="clearfix"></div>
+    </header>
+  </div>
+</article>
+  
+    
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2018/10/03/Spring入门程序/" class="archive-article-date">
+  	<time datetime="2018-10-03T05:28:49.766Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2018-10-03</time>
+</a>
+        </div>
+    	 
+  
+    <h1 itemprop="name">
+      <a class="archive-article-title" href="/2018/10/03/Spring入门程序/">Spring</a>
+    </h1>
+  
+
+        <div class="article-info info-on-right">
+          
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -236,7 +240,7 @@ com.springsource.org.apache.log4j-1.2.15.jar
 		</ul>
 	</div>
 
-      
+          
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
@@ -249,104 +253,17 @@ com.springsource.org.apache.log4j-1.2.15.jar
 	</div>
 
 
-      
-
-      
-        
-<div class="share-btn share-icons tooltip-left">
-  <div class="tooltip tooltip-east">
-    <span class="tooltip-item">
-      <a href="javascript:;" class="share-sns share-outer">
-        <i class="icon icon-share"></i>
-      </a>
-    </span>
-    <span class="tooltip-content">
-      <div class="share-wrap">
-        <div class="share-icons">
-          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
-            <i class="icon icon-weibo"></i>
-          </a>
-          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
-            <i class="icon icon-weixin"></i>
-          </a>
-          <a class="qq share-sns" href="javascript:;" data-type="qq">
-            <i class="icon icon-qq"></i>
-          </a>
-          <a class="douban share-sns" href="javascript:;" data-type="douban">
-            <i class="icon icon-douban"></i>
-          </a>
-          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
-            <i class="icon icon-qzone"></i>
-          </a>
-          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
-            <i class="icon icon-facebook"></i>
-          </a>
-          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
-            <i class="icon icon-twitter"></i>
-          </a>
-          <a class="google share-sns" href="javascript:;" data-type="google">
-            <i class="icon icon-google"></i>
-          </a>
         </div>
-      </div>
-    </span>
-  </div>
-</div>
-
-<div class="page-modal wx-share js-wx-box">
-    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
-    <p>扫一扫，分享到微信</p>
-    <div class="wx-qrcode">
-      <img src="//pan.baidu.com/share/qrcode?url=https://amulsion.github.io/2018/09/17/spring/" alt="微信分享二维码">
-    </div>
-</div>
-
-<div class="mask js-mask"></div>
-      
-      <div class="clearfix"></div>
-    </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-  
-<nav id="article-nav">
   
   
-    <a href="/2018/09/15/java--学习笔记整理/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title">Java -- 学习笔记整理</div>
-      <i class="icon-circle-right"></i>
-    </a>
-  
-</nav>
-
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-  
-  
+    </div></section>
   
 
-  
-
-  
-
-  
+    
 
 
           </div>
@@ -369,8 +286,8 @@ com.springsource.org.apache.log4j-1.2.15.jar
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: true,
-		isArchive: false,
+		isPost: false,
+		isArchive: true,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
@@ -443,11 +360,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">java</a>
+                <a href="javascript:void(0)" class="js-tag color2">spring java</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">spring java</a>
+                <a href="javascript:void(0)" class="js-tag color5">hexo</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">java</a>
               </li>
             
             <div class="clearfix"></div>
